@@ -38,8 +38,13 @@
    .gradient{
     background: linear-gradient(90deg, var(--brand), var(--brand-2));
     color:white;
+    transition: 0.3s;
     text-decoration: none;
    }
+          .gradient:hover {
+           
+            transform: scale(1.06);
+          }
    .btn-gradient {
        background: linear-gradient(90deg, var(--brand), var(--brand-2));
        color: #fff;
